@@ -52,9 +52,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-                <EditText
+                <androidx.appcompat.widget.AppCompatEditText
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:hint="e.g John Doe"
+                    android:textColor="#63a43"/>
             </com.google.android.material.textfield.TextInputLayout>
             <Button
                 android:layout_width="match_parent"
