@@ -1,3 +1,4 @@
+
 package com.example.quizapp
 
 data class Question(
@@ -10,3 +11,4 @@ data class Question(
     val optionFour: String,
     val correctAnswer: Int
 )
+
