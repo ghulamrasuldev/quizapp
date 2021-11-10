@@ -21,7 +21,6 @@ object Constants {
             "Pakistan", "India", "Australia", "Argentina", 2)
         val q9 = Question(1, "What Country this Flag Belong to?", R.drawable.ic_flag_of_kuwait,
             "Kuwait", "Saudi Arabia", "Iraq", "Iran", 1)
-
         QuestionsList.add(q1)
         QuestionsList.add(q2)
         QuestionsList.add(q3)
