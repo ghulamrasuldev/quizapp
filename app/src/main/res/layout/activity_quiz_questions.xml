@@ -112,7 +112,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="@color/design_default_color_on_primary"
             android:gravity="center"
             android:padding="15dp"
             android:textColor="@color/white"
