@@ -1,6 +1,11 @@
 package com.example.quizapp
 
 object Constants {
+
+    const val USER_NAME:String = "user_name"
+    const val TOTAL_QUESTIONS:String = "total_questions"
+    const val CORRECT_ANSWERS:String = "correct_answers"
+
     fun getQuestions(): ArrayList<Question>{
         val QuestionsList = ArrayList<Question>()
         val q1 = Question(1, "What Country this Flag Belong to?", R.drawable.ic_flag_of_argentina,
@@ -21,6 +26,8 @@ object Constants {
             "Pakistan", "India", "Australia", "Argentina", 2)
         val q9 = Question(1, "What Country this Flag Belong to?", R.drawable.ic_flag_of_kuwait,
             "Kuwait", "Saudi Arabia", "Iraq", "Iran", 1)
+        val q10 = Question(1, "What Country this Flag Belong to?", R.drawable.ic_flag_of_kuwait,
+            "Kuwait", "Saudi Arabia", "Iraq", "Iran", 1)
         QuestionsList.add(q1)
         QuestionsList.add(q2)
         QuestionsList.add(q3)
@@ -30,6 +37,7 @@ object Constants {
         QuestionsList.add(q7)
         QuestionsList.add(q8)
         QuestionsList.add(q9)
+        QuestionsList.add(q10)
         return QuestionsList
     }
 }
